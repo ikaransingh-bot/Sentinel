@@ -1,0 +1,30 @@
+
+1e methode met behulp van scripts en bat files 
+om in werking te brengen open het het map klik als vervolg op
+
+install.cmd 
+
+en daana kun je het sluiten en daarna cmd weer openen 
+
+typen 
+
+run sentinel 
+
+waarbij console start 
+
+of 
+
+2e en geiste methode
+
+open cmd en type 
+ mysqld --console
+
+en daarna 
+
+cd C:\Users\ikaransingh\Desktop\Project-SENTINEL\Project-SENTINEL
+
+dir /s /b src\*.java > sources.txt
+
+javac -encoding UTF-8 -cp "lib/*" -d bin @sources.txt
+
+java -cp "bin;lib/*" sentinel.app.Main
